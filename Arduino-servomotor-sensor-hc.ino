@@ -3,8 +3,8 @@
 Servo servoMotor;
 
 
-int trigPin = 7;  // trigger pin D5
-int echoPin = 8;  // echo pin
+int trigPin = 7;  // trigger pin on 7
+int echoPin = 8;  // echo pin on 8
 
 int pos = 0;
 
@@ -49,10 +49,6 @@ void loop() {
   }
 
 
-
-
-
   delay(2000);
 
-  servoMotor.write(0);
 }
